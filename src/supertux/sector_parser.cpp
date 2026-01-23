@@ -46,9 +46,9 @@
 
 namespace
 {
-  static const std::string DEFAULT_BG = "images/background/antarctic/snow_hills.png";
+  static const std::string DEFAULT_BG = "images/background/misc/transparent_up.png";
   static const std::string DEFAULT_BG_TOP = "images/background/misc/transparent_up.png";
-  static const std::string DEFAULT_BG_BOTTOM = "images/background/antarctic/snow_bottom.png";
+  static const std::string DEFAULT_BG_BOTTOM = "images/background/misc/transparent_up.png";
 }
 
 std::unique_ptr<Sector>
@@ -356,7 +356,7 @@ SectorParser::create_sector()
 
     auto& panorama = m_sector.add<Background>();
     panorama.set_image("images/background/antarctic/snow_panorama.png");
-    panorama.set_images(DEFAULT_BG_TOP, "images/background/antarctic/snow_panorama.png", "images/background/misc/water_bottom.png");
+    panorama.set_images(DEFAULT_BG_TOP, "images/background/misc/transparent_up.png", "images/background/misc/transparent_up.png");
     panorama.set_speed(0.0);
     panorama.set_layer(-350);
     panorama.set_name("Panorama");
@@ -406,7 +406,7 @@ SectorParser::create_sector()
 
     m_sector.add<SpawnPointMarker>(DEFAULT_SPAWNPOINT_NAME, Vector(64, 480));
 
-    music.set_music("/music/antarctic/midday.music");
+    music.set_music("/music/antarctic/snowyland_daytime.music");
   }
 
   m_sector.add<Camera>("Camera");

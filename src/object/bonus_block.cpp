@@ -62,7 +62,7 @@ const float UPGRADE_SOUND_GAIN = 0.3f;
 } // namespace
 
 BonusBlock::BonusBlock(const Vector& pos, int tile_data) :
-  Block(pos, "images/objects/bonus_block/bonusblock.sprite"),
+  Block(pos, "images/objects/bonus_block/snowyland/bonusblock.sprite"),
   m_contents(),
   m_objects(),
   m_object(),
@@ -77,7 +77,7 @@ BonusBlock::BonusBlock(const Vector& pos, int tile_data) :
 }
 
 BonusBlock::BonusBlock(const ReaderMapping& mapping) :
-  Block(mapping, "images/objects/bonus_block/bonusblock.sprite"),
+  Block(mapping, "images/objects/bonus_block/snowyland/bonusblock.sprite"),
   m_contents(Content::COIN),
   m_objects(),
   m_object(),
