@@ -355,7 +355,7 @@ SectorParser::create_sector()
     background.set_name("Snowy_Hills");
 
     auto& panorama = m_sector.add<Background>();
-    panorama.set_image("images/background/antarctic/snow_panorama.png");
+    panorama.set_image("images/background/misc/transparent_up.png");
     panorama.set_images(DEFAULT_BG_TOP, "images/background/misc/transparent_up.png", "images/background/misc/transparent_up.png");
     panorama.set_speed(0.0);
     panorama.set_layer(-350);
