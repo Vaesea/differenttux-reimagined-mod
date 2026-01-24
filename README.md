@@ -17,6 +17,13 @@ that very quickly somehow)
 
 Github Actions, for now.
 
+## ACTUALLY PLEASE READ THIS (and the credits too)
+Only play the portable version of the Windows version. I recommend doing that using wine if you use Linux.
+
+If you have no other choice, or you don't want to use wine, move your save folder before playing.
+
+Also, don't run "run_supertux.bat", run "run_supertux_portable.bat"
+
 ## Credits
 * SuperTux Team - SuperTux
 * Stephen Groundwater - Tux Junior and Forest World Adventure Pack (this is inspired by both of those) (there's also a tux junior statue)
